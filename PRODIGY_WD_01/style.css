@@ -227,7 +227,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
-section2-headings
+
 .footer-section {
 flex-basis: 25%;
 padding: 0 20px;
@@ -245,6 +245,7 @@ padding: 0;
 
 .footer-section ul li {
 margin-bottom: 10px;
+max-width: 150px;
 }
 
 .footer-section ul li a {
@@ -328,6 +329,21 @@ align-items: center;
 
 #third{
 margin-bottom: 30px;
+}
+
+/*footer*/
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    min-width: 10%;
+}
+
+.footer-section {
+    margin: 20px 10px;
+}
+
+.copyright {
+    font-size: 0.75rem;
 }
 
 
